@@ -1,0 +1,146 @@
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromTopDelay {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  50%{
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromTopDelayLong {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  66%{
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromTopDelayLonger {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  75%{
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromTopDelayEvenLonger {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  80%{
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity: 0;
+  }
+  84%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Screen_one{
+  display: flex;
+}
+
+.Navbar{
+  animation: 2.5s ease-out 0s 1 slideInFromTopDelayEvenLonger;
+  height: 60px;
+  position: absolute;
+  left: 0;  
+  top: 0;
+  left: 0;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 32px;
+}
+
+.Navbar_link{
+  padding: 8px;
+  margin: 0 8px;
+  text-decoration: none;
+}
+.Navbar_link:hover{
+  border-bottom: 1px solid #555555;
+}
+
+.Homepage{
+  flex: 1;
+  /* width: 100%; */
+  max-width: 600px;
+}
+.Homepage_megaText{
+  animation: 1s ease-out slideInFromTopDelay;
+  font-size: 60px;
+  color: #888888;
+  margin: 16px;
+}
+.long_delay{
+  animation: 1.5s ease-out slideInFromTopDelayLong;
+}
+.longer_delay{
+  animation: 2s ease-out slideInFromTopDelayLonger;
+}
+.even_longer_delay{
+  animation: 2.5s ease-out slideInFromTopDelayEvenLonger;
+}
+
+.Made_by_ed{
+  color: #888888;
+  animation: 3s ease-out fadeIn;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.Homepage_chevron{
+  animation: 3s ease-out fadeIn;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
