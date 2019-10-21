@@ -110,7 +110,10 @@
 
 .Homepage{
   flex: 1;
-  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
   max-width: 600px;
 }
 .Homepage_megaText{
