@@ -9,6 +9,8 @@
   <link rel="stylesheet" type="text/css" href="./Homepage.css">
   <link rel="stylesheet" type="text/css" href="./Projects.css">
   <link rel="stylesheet" type="text/css" href="./assetStyles.css">
+  <link rel="stylesheet" type="text/css" href="./aboutMe.css">
+  <link rel="stylesheet" type="text/css" href="./contact.css">
 
 
   <title>Portfolio</title>
@@ -17,13 +19,13 @@
 <body>
   <div class="Body">
     <div class="Body_full">
-    
+      <a id="home" class='hiddenOffset'></a>
       <div class="Homepage">
         <p class="Homepage_megaText">// simple</p>
         <p class="Homepage_megaText long_delay">// clean</p>
         <p class="Homepage_megaText longer_delay">// web development</p>
         <div class="Homepage_chevron">
-          <a href='#'>
+          <a href='#projects'>
             <img src="./down-chevron.png" class="Chevron" />
           </a>
         </div>
@@ -33,44 +35,99 @@
       </div>
       <div class="NavSticky">
         <div class="Navbar">
-          <a class="Navbar_link" href="#">Home</a>
-          <a class="Navbar_link" href="#">Projects</a>
-          <a class="Navbar_link" href="#">About me</a>
-          <a class="Navbar_link" href="#">Contact</a>
-          <a class="Navbar_link" href="#">Blog</a>
+          <a class="Navbar_link" href="#home">Home</a>
+          <a class="Navbar_link" href="#projects">Projects</a>
+          <a class="Navbar_link" href="#about">About me</a>
+          <a class="Navbar_link" href="#contact">Contact</a>
         </div>
       </div>
       <div class="Spacer">
       </div>
-      <div class="Projects">
-        <!-- 1 -->
-        <div class="Projects_row">
-          <div class="Projects_row_img_container" >
-            <img class="Projects_row_img" src="./sample.jpeg">
-            <div class='dropshadow'></div>
-          </div>
-          <p class="Projects_row_text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus impedit quis laudantium quia! Omnis in explicabo nemo, voluptatem ex iure quaerat commodi praesentium. Tempora quas quasi doloremque sit ex nulla.
+      <a id="projects" class='hiddenOffset'></a>
+      <div class="Title_container">
+          <p class="Title">
+            PROJECTS
           </p>
-          <div class="Projects_row_sources_container">
-              <a class="Projects_row_source" href="#">Code</a>
-              <a class="Projects_row_source" href="#">Demo</a>
-              <a class="Projects_row_source" href="#">Link</a>
-
-          </div>
         </div>
-<!-- 2 -->
+      <div class="Projects"  >
+        <!-- 1 -->
+      
         <div class="Projects_row">
           <div class="Projects_row_img_container">
             <img class="Projects_row_img" src="./sample.jpeg">
             <div class='dropshadow'></div>
           </div>
           <p class="Projects_row_text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus impedit quis laudantium quia! Omnis in explicabo nemo, voluptatem ex iure quaerat commodi praesentium. Tempora quas quasi doloremque sit ex nulla.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus impedit quis laudantium quia! Omnis in
+            explicabo nemo, voluptatem ex iure quaerat commodi praesentium. Tempora quas quasi doloremque sit ex nulla.
+          </p>
+          <div class="Projects_row_sources_container">
+            <a class="Projects_row_source" href="#">Code</a>
+            <a class="Projects_row_source" href="#">Demo</a>
+            <a class="Projects_row_source" href="#">Link</a>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="Projects_row">
+          <div class="Projects_row_img_container">
+            <img class="Projects_row_img" src="./sample.jpeg">
+            <div class='dropshadow'></div>
+          </div>
+          <p class="Projects_row_text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus impedit quis laudantium quia! Omnis in
+            explicabo nemo, voluptatem ex iure quaerat commodi praesentium. Tempora quas quasi doloremque sit ex nulla.
+          </p>
+          <div class="Projects_row_sources_container">
+            <a class="Projects_row_source" href="#">Code</a>
+            <a class="Projects_row_source" href="#">Demo</a>
+            <a class="Projects_row_source" href="#">Link</a>
+          </div>
+        </div>
+      </div>
+      <div class='Spacer'></div>
+      <a id="about" class='hiddenOffset'></a>
+      <div class="Title_container">
+          <p class="Title">
+            ABOUT ME
           </p>
         </div>
+      <div class="AboutMe_container" >
+        <div class="AboutMe">
+          <div class="AboutMe_profile">
+            <div class="AboutMe_profile_imageContainer">
+              <img src="./sample.jpeg" class="AboutMe_profile_image" />
+              <div class='dropshadow_profile'></div>
+            </div>
+              <p class='AboutMe_quote'>"Put some quote here"</p>
+          </div>
+          <div class="AboutMe_textContainer">
+            <p class="AboutMe_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ea ducimus magnam
+              laudantium sed labore, tempore enim ad illum quae vel ratione aliquam id eos temporibus accusamus voluptas
+              inventore? Eius.</p>
+            <p class="AboutMe_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ea ducimus magnam
+              laudantium sed labore, tempore enim ad illum quae vel ratione aliquam id eos temporibus accusamus voluptas
+              inventore? Eius.</p>
+            <p class="AboutMe_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ea ducimus magnam
+              laudantium sed labore, tempore enim ad illum quae vel ratione aliquam id eos temporibus accusamus voluptas
+              inventore? Eius.</p>
+          </div>
+        </div>
+      </div>
+      <div class='Spacer'></div>
+      <a id="contact" class='hiddenOffset'></a>
+      <div class="Title_container">
+          <p class="Title">
+            CONTACT
+          </p>
+        </div>
+      <div class="Contact" >
+          <a target="_blank" href='#' class='Contact_link'>// LINKED IN</a>
+          <a target="_blank" href='#' class='Contact_link'>// GITHUB</a>
+          <a target="_blank" href='#' class='Contact_link'>// EMAIL</a>
+          <a target="_blank" href='#' class='Contact_link'>// BLOG</a>
       </div>
     </div>
   </div>
 </body>
+
 </html>

@@ -1,0 +1,25 @@
+.Contact{
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+.Contact_link{
+  font-size: 24px;
+  margin: 16px;
+  padding: 8px 32px;
+}
+
+.hiddenOffset{
+  display: block;
+  position: relative;
+  top: -55px;
+  visibility: hidden;
+}
+@media screen and (max-width: 400px) {
+  .hiddenOffset{
+    top: -50px;
+  }
+}

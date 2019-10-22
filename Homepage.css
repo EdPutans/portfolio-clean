@@ -92,7 +92,7 @@
 }
 
 .Navbar{
-  width: 100vw;
+  width: calc(100vw - 64px);
   animation: 2.5s ease-out 0s 1 slideInFromTopDelayEvenLonger;
   height: 50px;
   background: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0.4));
@@ -105,6 +105,8 @@
   padding: 8px;
   margin: 0 8px;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease-out;
 }
 
 
@@ -155,6 +157,7 @@
 @media screen and (max-width: 400px) {
   .Navbar{
     padding: 0 8px;
+    width: calc(100vw - 16px);
   }
   .Navbar_link{
     margin: 0px;
