@@ -140,14 +140,15 @@
 
 .Made_by_ed{
   color: #888888;
-  animation: 3s ease-out fadeIn;
+  animation: 2.5s ease-out fadeIn;
   position: absolute;
   right: 20px;
   bottom: 20px;
+  font-size: 16px;
 }
 
 .Homepage_chevron{
-  animation: 3s ease-out fadeIn;
+  animation: 2.5s ease-out fadeIn;
   position: absolute;
   bottom: 20px;
   left: 50%;

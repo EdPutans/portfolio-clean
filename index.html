@@ -5,15 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="./main-style.css">
-  <link rel="stylesheet" type="text/css" href="./Homepage.css">
-  <link rel="stylesheet" type="text/css" href="./Projects.css">
-  <link rel="stylesheet" type="text/css" href="./assetStyles.css">
-  <link rel="stylesheet" type="text/css" href="./aboutMe.css">
-  <link rel="stylesheet" type="text/css" href="./contact.css">
+  <link rel="stylesheet" type="text/css" href="./styles/main-style.css">
+  <link rel="stylesheet" type="text/css" href="./styles/Homepage.css">
+  <link rel="stylesheet" type="text/css" href="./styles/Projects.css">
+  <link rel="stylesheet" type="text/css" href="./styles/assetStyles.css">
+  <link rel="stylesheet" type="text/css" href="./styles/aboutMe.css">
+  <link rel="stylesheet" type="text/css" href="./styles/contact.css">
 
-
-  <title>Portfolio</title>
+  <title>Ed Putans</title>
 </head>
 
 <body>
@@ -21,16 +20,16 @@
     <div class="Body_full">
       <a id="home" class='hiddenOffset'></a>
       <div class="Homepage">
-        <p class="Homepage_megaText">// simple</p>
-        <p class="Homepage_megaText long_delay">// clean</p>
-        <p class="Homepage_megaText longer_delay">// web development</p>
+        <p class="Homepage_megaText">Simple</p>
+        <p class="Homepage_megaText long_delay">Clean</p>
+        <p class="Homepage_megaText longer_delay">Web development</p>
         <div class="Homepage_chevron">
           <a href='#projects'>
-            <img src="./down-chevron.png" class="Chevron" />
+            <img src="./img/down-chevron.png" class="Chevron" />
           </a>
         </div>
         <div class="Made_by_ed">
-          <p>Ed Putans - 2019</p>
+          <p>by Ed Putans</p>
         </div>
       </div>
       <div class="NavSticky">
@@ -45,60 +44,123 @@
       </div>
       <a id="projects" class='hiddenOffset'></a>
       <div class="Title_container">
-          <p class="Title">
-            PROJECTS
-          </p>
-        </div>
-      <div class="Projects"  >
-        <!-- 1 -->
-      
+        <p class="Title">
+          PROJECTS
+        </p>
+      </div>
+      <div class="Projects">
+        <!-- 0-->
         <div class="Projects_row">
           <div class="Projects_row_img_container">
-            <img class="Projects_row_img" src="./sample.jpeg">
+            <div class='Projects_row_img_inner_container'>
+              <img class="Projects_row_img" src="./img/portfolio.png">
+            </div>
             <div class='dropshadow'></div>
           </div>
-          <p class="Projects_row_text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus impedit quis laudantium quia! Omnis in
-            explicabo nemo, voluptatem ex iure quaerat commodi praesentium. Tempora quas quasi doloremque sit ex nulla.
-          </p>
+          <div>
+            <p class="Projects_row_text_title">
+              Portfolio
+            </p>
+            <p class="Projects_row_text">
+              I do not know a single person who would put their portfolio page as a project in said portfolio. However,
+              this was a challenge I set for myself to use only CSS and HTML, with no Javascript. Also I wanted to test
+              my own design skills, since I love elegant web design but I am very new to creating my own.
+              This was a very interesting project for me and I believe it deserves a place on this list.
+            </p>
+          </div>
           <div class="Projects_row_sources_container">
             <a class="Projects_row_source" href="#">Code</a>
             <a class="Projects_row_source" href="#">Demo</a>
-            <a class="Projects_row_source" href="#">Link</a>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div class="Projects_row">
+          <div class="Projects_row_img_container">
+            <div class='Projects_row_img_inner_container'>
+              <img class="Projects_row_img" src="./img/homie.png">
+            </div>
+            <div class='dropshadow'></div>
+          </div>
+          <div>
+            <p class="Projects_row_text_title">
+              HOMIE
+            </p>
+            <p class="Projects_row_text">
+              A replacement for the boring standard browser starting page. Displays a random background image from
+              picsum.photos, the weather (location determined based on user's IP) and allows to add/remove bookmarks,
+              which are stored in the browser's localStorage.
+              To use - set the project URL as browser homepage.
+            </p>
+          </div>
+          <div class="Projects_row_sources_container">
+            <a class="Projects_row_source" href="#">Code</a>
+            <a class="Projects_row_source" href="#">Demo</a>
           </div>
         </div>
         <!-- 2 -->
         <div class="Projects_row">
           <div class="Projects_row_img_container">
-            <img class="Projects_row_img" src="./sample.jpeg">
+            <div class='Projects_row_img_inner_container'>
+              <img class="Projects_row_img" src="./img/giftr.png">
+            </div>
             <div class='dropshadow'></div>
           </div>
-          <p class="Projects_row_text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus impedit quis laudantium quia! Omnis in
-            explicabo nemo, voluptatem ex iure quaerat commodi praesentium. Tempora quas quasi doloremque sit ex nulla.
-          </p>
+          <div>
+            <p class="Projects_row_text_title">
+              GIFTR
+            </p>
+            <p class="Projects_row_text">
+              is a social app, that allows you to see what your friends would like to get as gifts. It allows creating
+              your own wishlist, viewing other peoples' lists, as well as adding friends for quicker access to their
+              lists.
+              The app also has a secret Santa generator, which creates combinations of who gets gifts for whom and sends
+              all the participants notifications.
+              Built as the final project before graduating Flatiron School.
+            </p>
+          </div>
           <div class="Projects_row_sources_container">
             <a class="Projects_row_source" href="#">Code</a>
             <a class="Projects_row_source" href="#">Demo</a>
-            <a class="Projects_row_source" href="#">Link</a>
           </div>
         </div>
+        <div class="Projects_row">
+            <div class="Projects_row_img_container">
+              <div class='Projects_row_img_inner_container'>
+                <img class="Projects_row_img" src="./img/chillax.jpeg">
+              </div>
+              <div class='dropshadow'></div>
+            </div>
+            <div>
+              <p class="Projects_row_text_title">
+                Chillax
+              </p>
+              <p class="Projects_row_text">
+               An app that shows the best destinations to fly to from London at a given month. 
+               One of the projects built during the coding bootcamp.
+              </p>
+            </div>
+            <div class="Projects_row_sources_container">
+              <a class="Projects_row_source" href="#">Code</a>
+              <a class="Projects_row_source" href="#">Demo</a>
+            </div>
+          </div>
       </div>
+
       <div class='Spacer'></div>
       <a id="about" class='hiddenOffset'></a>
       <div class="Title_container">
-          <p class="Title">
-            ABOUT ME
-          </p>
-        </div>
-      <div class="AboutMe_container" >
+        <p class="Title">
+          ABOUT ME
+        </p>
+      </div>
+      <div class="AboutMe_container">
         <div class="AboutMe">
           <div class="AboutMe_profile">
             <div class="AboutMe_profile_imageContainer">
-              <img src="./sample.jpeg" class="AboutMe_profile_image" />
+              <img src="./img/sample.jpeg" class="AboutMe_profile_image" />
               <div class='dropshadow_profile'></div>
             </div>
-              <p class='AboutMe_quote'>"Put some quote here"</p>
+            <p class='AboutMe_quote'>"Put some quote here"</p>
           </div>
           <div class="AboutMe_textContainer">
             <p class="AboutMe_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ea ducimus magnam
@@ -116,15 +178,15 @@
       <div class='Spacer'></div>
       <a id="contact" class='hiddenOffset'></a>
       <div class="Title_container">
-          <p class="Title">
-            CONTACT
-          </p>
-        </div>
-      <div class="Contact" >
-          <a target="_blank" href='#' class='Contact_link'>// LINKED IN</a>
-          <a target="_blank" href='#' class='Contact_link'>// GITHUB</a>
-          <a target="_blank" href='#' class='Contact_link'>// EMAIL</a>
-          <a target="_blank" href='#' class='Contact_link'>// BLOG</a>
+        <p class="Title">
+          CONTACT
+        </p>
+      </div>
+      <div class="Contact">
+        <a target="_blank" href='https://www.linkedin.com/in/EdPutans' class='Contact_link'>// LINKED IN</a>
+        <a target="_blank" href='https://www.github.com/EdPutans' class='Contact_link'>// GITHUB</a>
+        <a target="_blank" href='mailto:edputans@gmail.com' class='Contact_link'>// EMAIL</a>
+        <a target="_blank" href='https://www.medium.com/edunceputans' class='Contact_link'>// BLOG</a>
       </div>
     </div>
   </div>
