@@ -55,11 +55,11 @@
   width: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .Projects_row_source{
-  font-size: 24px;
+  font-size: 18px;
   padding: 8px 16px;
   transition: all 0.3s;
 }

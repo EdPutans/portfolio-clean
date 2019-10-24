@@ -8,8 +8,13 @@
   flex-wrap: wrap;
 }
 .Contact_link{
+  border-right: 1px solid #555555;
   font-size: 24px;
-  margin: 36px;
+  padding: 36px;
+  transition: all 0.3s;
+}
+.Contact_link:hover{
+  color: #aaaaaa;
 }
 
 .hiddenOffset{
