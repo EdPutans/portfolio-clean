@@ -20,28 +20,56 @@
     <div class="Body_full">
       <a id="home" class='hiddenOffset'></a>
       <div class="Homepage">
-        <p class="Homepage_megaText">Simple</p>
-        <p class="Homepage_megaText long_delay">Clean</p>
-        <p class="Homepage_megaText longer_delay">Web development</p>
+        <p class="Homepage_megaText">I do</p>
+        <p class="Homepage_megaText long_delay">Elegant</p>
+        <p class="Homepage_megaText longer_delay">Web Development</p>
         <div class="Homepage_chevron">
-          <a href='#projects'>
-            <!-- <img src="./img/down-chevron.png" class="Chevron" /> -->
+          <a href='#about'>
+            <img src="./img/down-chevron.png" class="Chevron" />
           </a>
         </div>
         <div class="Made_by_ed">
-          <p>by Ed Putans</p>
+          <p class="Made_by_ed_text">@ Ed Putans</p>
         </div>
       </div>
       <div class="NavSticky">
         <div class="Navbar">
           <a class="Navbar_link" href="#home">Home</a>
-          <a class="Navbar_link" href="#projects">Projects</a>
           <a class="Navbar_link" href="#about">About me</a>
+          <a class="Navbar_link" href="#projects">Projects</a>
           <a class="Navbar_link" href="#contact">Contact</a>
         </div>
       </div>
       <div class="Spacer">
       </div>
+      <a id="about" class='hiddenOffset'></a>
+      <div class="Title_container">
+        <p class="Title">
+          ABOUT ME
+        </p>
+      </div>
+      <div class="AboutMe_container">
+        <div class="AboutMe">
+          <div class="AboutMe_profile">
+            <div class="AboutMe_profile_imageContainer">
+              <img src="./img/ed.jpeg" class="AboutMe_profile_image" />
+              <div class='dropshadow_profile'></div>
+            </div>
+            <p class='AboutMe_quote'>"The simplest solution is almost always the best" - William of Ockham.</p>
+          </div>
+          <div class="AboutMe_textContainer">
+            <p class="AboutMe_text">My name is Ed Putans. Born and raised in Vilnius, Lithuania, I moved to London where
+              I discovered my love for code and where I became a software developer. I love web development and how many
+              problems can be easily solved with a simple app.</p>
+            <p class="AboutMe_text">I currently work as a front end developer, working primarily with React, Redux,
+              React Native and SASS. I love to build apps with the most elegant solutions I am capable of. </p>
+            <p class="AboutMe_text">I value simplicity and believe that the easiest solution is often the best. In my
+              spare time I like to express my creativity (or lack there of) - photography, web design, photo editing. I
+              am always on the look out for opportunities to grow. </p>
+          </div>
+        </div>
+      </div>
+
       <a id="projects" class='hiddenOffset'></a>
       <div class="Title_container">
         <p class="Title">
@@ -53,14 +81,20 @@
         <div class="Projects_row">
           <div class="Projects_row_img_container">
             <div class='Projects_row_img_inner_container'>
-              <!-- <img class="Projects_row_img" src="./img/portfolio.png"> -->
+              <img class="Projects_row_img" src="./img/portfolio.png">
             </div>
             <div class='dropshadow'></div>
           </div>
           <div>
-            <p class="Projects_row_text_title">
-              Portfolio
-            </p>
+            <div class="Projects_row_title_container">
+              <p class="Projects_row_text_title">
+                Portfolio
+              </p>
+              <div>
+                <a class="Projects_row_source" target="_blank"
+                  href="https://github.com/EdPutans/portfolio-clean">Code</a>
+              </div>
+            </div>
             <p class="Projects_row_text">
               I do not know a single person who would put their portfolio page as a project in said portfolio. However,
               this was a challenge I set for myself to use only CSS and HTML, with no Javascript. Also I wanted to test
@@ -68,92 +102,70 @@
               This was a very interesting project for me and I believe it deserves a place on this list.
             </p>
           </div>
-          <div class="Projects_row_sources_container">
-            <a class="Projects_row_source" target="_blank" href="https://github.com/EdPutans/portfolio-clean">Code</a>
-          </div>
+
         </div>
         <!-- 1 -->
         <div class="Projects_row">
           <div class="Projects_row_img_container">
             <div class='Projects_row_img_inner_container'>
-              <!-- <img class="Projects_row_img" src="./img/homie.png"> -->
+              <img class="Projects_row_img" src="./img/homie.png">
             </div>
             <div class='dropshadow'></div>
           </div>
           <div>
-            <p class="Projects_row_text_title">
-              HOMIE
-            </p>
+            <div class="Projects_row_title_container">
+              <p class="Projects_row_text_title">
+                HOMIE
+              </p>
+              <div>
+                <a class="Projects_row_source" target="_blank"
+                  href="https://github.com/EdPutans/homepage-frontend">Code</a>
+                <a class="Projects_row_source" target="_blank" href="https://eds-custom-homepage.netlify.com/">Demo</a>
+              </div>
+            </div>
             <p class="Projects_row_text">
               A replacement for the boring standard browser starting page. Displays a random background image from
-              picsum.photos, the weather (location determined based on user's IP) and allows to add/remove bookmarks,
+              picsum.photos, the weather (location determined based on user's IP address) and allows to add/remove
+              bookmarks,
               which are stored in the browser's localStorage.
               To use - set the project URL as browser homepage.
             </p>
           </div>
-          <div class="Projects_row_sources_container">
-            <a class="Projects_row_source" target="_blank" href="https://github.com/EdPutans/homepage-frontend">Code</a>
-            <a class="Projects_row_source" target="_blank" href="https://eds-custom-homepage.netlify.com/">Demo</a>
-          </div>
+
         </div>
         <!-- 2 -->
         <div class="Projects_row">
           <div class="Projects_row_img_container">
             <div class='Projects_row_img_inner_container'>
-              <!-- <img class="Projects_row_img" src="./img/giftr.png"> -->
+              <img class="Projects_row_img" src="./img/giftr.png">
             </div>
             <div class='dropshadow'></div>
           </div>
           <div>
-            <p class="Projects_row_text_title">
-              GIFTR
-            </p>
+            <div class="Projects_row_title_container">
+              <p class="Projects_row_text_title">
+                GIFTR
+              </p>
+              <div>
+                <a class="Projects_row_source" target="_blank"
+                  href="https://github.com/EdPutans/giftR-frontend">Code</a>
+                <a class="Projects_row_source" target="_blank" href="https://giftr-frontend.herokuapp.com/">Demo</a>
+              </div>
+            </div>
             <p class="Projects_row_text">
-              It is a social app, that allows you to see what your friends would like to get as gifts. It allows creating
+              It is a social app, that allows you to see what your friends would like to get as gifts. It allows
+              creating
               your own wishlist, viewing other peoples' lists, as well as adding friends for quicker access to their
               lists.
-              The app also has a secret Santa generator, which creates combinations of who gets gifts for whom and sends
+              The app also has a Secret Santa generator, which creates combinations of who gets gifts for whom and sends
               all the participants notifications.
               Built as the final project before graduating Flatiron School.
             </p>
           </div>
-          <div class="Projects_row_sources_container">
-            <a class="Projects_row_source" target="_blank" href="https://github.com/EdPutans/giftR-frontend">Code</a>
-            <a class="Projects_row_source" target="_blank" href="https://giftr-frontend.herokuapp.com/">Demo</a>
-          </div>
         </div>
+
       </div>
 
-      <div class='Spacer'></div>
-      <a id="about" class='hiddenOffset'></a>
-      <div class="Title_container">
-        <p class="Title">
-          ABOUT ME
-        </p>
-      </div>
-      <div class="AboutMe_container">
-        <div class="AboutMe">
-          <div class="AboutMe_profile">
-            <div class="AboutMe_profile_imageContainer">
-              <!-- <img src="./img/ed.jpeg" class="AboutMe_profile_image" /> -->
-              <div class='dropshadow_profile'></div>
-            </div>
-            <p class='AboutMe_quote'>"The simplest solution is almost always the best" - William of Ockham.</p>
-          </div>
-          <div class="AboutMe_textContainer">
-            <p class="AboutMe_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ea ducimus magnam
-              laudantium sed labore, tempore enim ad illum quae vel ratione aliquam id eos temporibus accusamus voluptas
-              inventore? Eius.</p>
-            <p class="AboutMe_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ea ducimus magnam
-              laudantium sed labore, tempore enim ad illum quae vel ratione aliquam id eos temporibus accusamus voluptas
-              inventore? Eius.</p>
-            <p class="AboutMe_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ea ducimus magnam
-              laudantium sed labore, tempore enim ad illum quae vel ratione aliquam id eos temporibus accusamus voluptas
-              inventore? Eius.</p>
-          </div>
-        </div>
-      </div>
-      <div class='Spacer'></div>
       <a id="contact" class='hiddenOffset'></a>
       <div class="Title_container">
         <p class="Title">
@@ -164,7 +176,9 @@
         <a target="_blank" href='https://www.linkedin.com/in/EdPutans' class='Contact_link'># LINKED IN</a>
         <a target="_blank" href='https://www.github.com/EdPutans' class='Contact_link'># GITHUB</a>
         <a target="_blank" href='mailto:edputans@gmail.com' class='Contact_link'># EMAIL</a>
-        <a target="_blank" href='https://www.medium.com/edunceputans' class='Contact_link'># BLOG</a>
+        <a target="_blank" href='https://medium.com/@edunceputans' class='Contact_link'># BLOG</a>
+        <a href='tel:+447384084147' class='Contact_link'># CALL ME @ +44 7384 084147 </a>
+
       </div>
     </div>
   </div>

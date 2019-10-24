@@ -26,10 +26,9 @@
 .Projects_row_img_container{
   position: relative;
   width: 200px;
-  margin: auto;
+  margin: 16px auto;
   z-index: 1;
   height: 200px;
- 
 }
 .Projects_row_img_inner_container{
    overflow: hidden;
@@ -45,8 +44,11 @@
 }
 .Projects_row_text_title{
   font-size: 20px;
+}
+.Projects_row_title_container{
+  display: flex;
   padding: 0 32px 4px;
-
+  justify-content: space-between;
 }
 .Projects_row_img{
   height: 100%;
@@ -60,12 +62,13 @@
 
 .Projects_row_source{
   font-size: 18px;
-  padding: 8px 16px;
+  padding: 8px;
   transition: all 0.3s;
-}
-.Projects_row_source:hover{
   color: #aaaaaa;
 
+}
+.Projects_row_source:hover{
+  color: #999999;
 }
 
 .dropshadow{
@@ -80,6 +83,9 @@
 }
 
 @media screen and (max-width: 400px) {
+  .Projects_row_img_container{
+    margin: 64px auto;
+  }
   .Projects_row_sources_container{
     flex: 1;
     flex-direction: row;
@@ -90,5 +96,6 @@
   }
   .Projects_row{
     padding: 0 24px ;
+    margin-bottom: 100px;
   }
 }

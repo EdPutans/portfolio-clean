@@ -8,13 +8,16 @@
   flex-wrap: wrap;
 }
 .Contact_link{
-  border-right: 1px solid #555555;
+  border-right: 3px solid #6227b1;
   font-size: 24px;
   padding: 36px;
+  font-family: 'minimal';
   transition: all 0.3s;
+  letter-spacing: 3px;
 }
 .Contact_link:hover{
   color: #aaaaaa;
+
 }
 
 .hiddenOffset{
