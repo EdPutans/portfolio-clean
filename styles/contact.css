@@ -26,7 +26,10 @@
   top: -55px;
   visibility: hidden;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
+  .Contact_link{
+    border-right: 3px solid transparent;
+  }
   .hiddenOffset{
     top: -50px;
   }

@@ -9,7 +9,7 @@
   width: 100%;
   flex-direction: column;
   max-width: 1000px;
-  overflow: hidden;
+  overflow: hidden;;
 }
 
 .Projects_row{
@@ -19,7 +19,7 @@
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 320px;
 }
 
@@ -82,7 +82,7 @@
   transform: translateX(-140px) translateY(-250px) rotateZ(-45deg)  skewX(0deg) translateY(385px) scaleX(0.956161);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   .Projects_row_img_container{
     margin: 64px auto;
   }
@@ -95,7 +95,6 @@
     padding: 0;
   }
   .Projects_row{
-    padding: 0 24px ;
     margin-bottom: 100px;
   }
 }

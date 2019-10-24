@@ -32,7 +32,7 @@
 
 .AboutMe_textContainer{
   flex: 2;
-  min-width: 350px;
+  margin-bottom: 100px;
 }
 .AboutMe_text{
   width: 300px;
@@ -59,4 +59,9 @@
   height: 500px;
   background: linear-gradient(rgba(0, 0, 0, 0.15) 0%,   rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
   transform: translateX(-115px) translateY(-230px) rotateZ(-45deg)  skewX(0deg) translateY(385px) scaleX(0.956161);
+}
+@media screen and (max-width: 768px) {
+  .AboutMe_text{
+    padding: 0 0;
+  }
 }

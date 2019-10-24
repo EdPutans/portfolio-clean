@@ -167,7 +167,7 @@
   transform: translateX(-50%);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   .Navbar{
     padding: 0 8px;
     width: calc(100vw - 16px);
