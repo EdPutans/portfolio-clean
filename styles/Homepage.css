@@ -105,7 +105,8 @@
 }
 
 .Navbar {
-  width: 100vw;
+  /* scrollbars suck */
+  width: calc(100vw - 18px);
   animation: 2.5s ease-out 0s 1 slideInFromTopDelayEvenLonger;
   height: 50px;
   background: #fff;
@@ -188,6 +189,7 @@
 @media screen and (max-width: 768px) {
   .Navbar {
     padding: 0 8px;
+    /* scrollbars suck */
     width: calc(100vw - 18px);
   }
 
