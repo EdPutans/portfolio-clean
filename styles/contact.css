@@ -1,4 +1,4 @@
-.Contact{
+.Contact {
   align-self: center;
   min-height: 90vh;
   display: flex;
@@ -6,31 +6,41 @@
   flex-direction: column;
   max-width: 500px;
   flex-wrap: wrap;
+  padding-top: 100px;
+
 }
-.Contact_link{
-  border-right: 3px solid #6227b1;
+
+.Contact_link {
+  border-left: 2px solid #6227b1;
   font-size: 24px;
   padding: 36px;
   font-family: 'minimal';
   transition: all 0.3s;
   letter-spacing: 3px;
 }
-.Contact_link:hover{
+
+.Contact_link:hover {
   color: #aaaaaa;
 
 }
 
-.hiddenOffset{
+.hiddenOffset {
   display: block;
   position: relative;
   top: -55px;
   visibility: hidden;
 }
+
 @media screen and (max-width: 768px) {
-  .Contact_link{
+  .Contact {
+    padding-top: 100px;
+  }
+
+  .Contact_link {
     border-right: 3px solid transparent;
   }
-  .hiddenOffset{
+
+  .hiddenOffset {
     top: -50px;
   }
 }
