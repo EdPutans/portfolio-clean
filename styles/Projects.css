@@ -19,10 +19,9 @@
   padding: 0 64px;
   display: flex;
   flex-direction: row;
-  align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 320px;
+  margin-bottom: 200px;
 }
 
 .Projects_row_img_container {
