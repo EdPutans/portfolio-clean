@@ -15,7 +15,7 @@
 
 
 .Projects_row {
-  min-height: 200px;
+  min-height: 400px;
   padding: 0 64px;
   display: flex;
   flex-direction: row;
