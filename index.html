@@ -17,11 +17,13 @@
   <link rel="stylesheet" type="text/css" href="./styles/assetStyles.css">
   <link rel="stylesheet" type="text/css" href="./styles/aboutMe.css">
   <link rel="stylesheet" type="text/css" href="./styles/contact.css">
-
+  <script src="./dark-mode.js" defer></script>
   <title>Ed Putans</title>
 </head>
 
 <body>
+  <button id="darkmode-toggle" onclick="toggle()">
+  </button>
   <div class="Body">
     <div class="Body_full">
       <a id="home" class='hiddenOffset'></a>
@@ -45,8 +47,6 @@
           <a class="Navbar_link" href="#projects">Projects</a>
           <a class="Navbar_link" href="#contact">Contact</a>
         </div>
-      </div>
-      <div class="Spacer">
       </div>
       <a id="about" class='hiddenOffset'></a>
       <div class="Title_container">
@@ -103,7 +103,8 @@
               </div>
             </div>
             <p class="Projects_row_text">
-              An app I built for recurring checklists. I use it to pack for flights, get ready for the gym, make sure I
+              An app I built for recurring checklists. I use it to pack for flights, get ready for the gym, make sure
+              I
               have all the necessities for MTB rides, and make sure I've got all the glam I need at a rave.
               Create lists, check off items, clear the list once complete without having to recreate the list from
               scratch.
@@ -129,7 +130,8 @@
               </div>
             </div>
             <p class="Projects_row_text">
-              I needed an app I can access quickly to jot down notes and ideas. Existing options like Notion or Obsidian
+              I needed an app I can access quickly to jot down notes and ideas. Existing options like Notion or
+              Obsidian
               encourage you to structure your notes.
               I needed something as simple as possible to just dump my thoughts, with at most the ability to undo any
               accidental changes. Hence this app.
@@ -157,10 +159,12 @@
             <p class="Projects_row_text">
               A discord bot I've built for me and my colleague at Hoxton Academy, to help us save time and manage
               classes.
-              Includes features like editing messages based on other replies in chat, quick message command, easter eggs
+              Includes features like editing messages based on other replies in chat, quick message command, easter
+              eggs
               and more.
               This app is something a bit different as it's not a web-app per se'.
-              The app doesn't have a demo, since it's impossible to host a discord bot for free without having it go to
+              The app doesn't have a demo, since it's impossible to host a discord bot for free without having it go
+              to
               sleep. Feel free to read the docs in the repo, or reach out.
               Features keep getting added as needed
             </p>
@@ -186,7 +190,8 @@
             </div>
             <p class="Projects_row_text">
               A live chat app with sensoring and replacing some words with emojis. The app uses Firebase's Firestore
-              to save messages. The chat option is only available to users who logged in with their Google credentials.
+              to save messages. The chat option is only available to users who logged in with their Google
+              credentials.
               Emojis are retrieved from <a href="https://emoji-api.com"> Emoji API </a> and each word
               in a message gets matched/replaced before being saved.
               Built as a proof of concept to learn more about Google's Firebase, as well as improve my knowledge of
@@ -195,7 +200,7 @@
           </div>
         </div>
         <!--  -->
-        <div class="Projects_row">
+        <!-- <div class="Projects_row">
           <div class="Projects_row_img_container">
             <div class='Projects_row_img_inner_container'>
               <img class="Projects_row_img" src="./img/portfolio.png">
@@ -216,7 +221,7 @@
               The portfolio you are currently viewing. Build as a challenge to myself to use exclusively HTML + CSS.
             </p>
           </div>
-        </div>
+        </div> -->
         <!--  -->
         <div class="Projects_row">
           <div class="Projects_row_img_container">
@@ -266,12 +271,14 @@
               </div>
             </div>
             <p class="Projects_row_text">
-              My Flatiron School graduation project. It is a social app, that allows you to see what your friends would
+              My Flatiron School graduation project. It is a social app, that allows you to see what your friends
+              would
               like to get as gifts. It allows
               creating
               your own wishlist, viewing other peoples' lists, as well as adding friends for quicker access to their
               lists.
-              The app also has a Secret Santa generator, which creates combinations of who gets gifts for whom and sends
+              The app also has a Secret Santa generator, which creates combinations of who gets gifts for whom and
+              sends
               all the participants notifications.
             </p>
           </div>

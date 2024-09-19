@@ -63,6 +63,13 @@ caption {
   box-sizing: border-box;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid green !important; */
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -82,6 +89,10 @@ a {
   src: url(SIMPLIFICA.ttf);
 }
 
+body {
+  background: linear-gradient(#fdfdfd, #ffffff);
+}
+
 .Body {
   width: 100%;
   min-height: 100vh;
@@ -91,42 +102,51 @@ a {
 
 .Body_full {
   flex: 1;
-  background: linear-gradient(#fdfdfd, #ffffff);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.light-mode {
+  background: linear-gradient(rgb(33, 31, 33), #141414);
+  color: #ccc;
+}
+
+.light-mode p,
+a {
+  color: #ccc;
+}
+
 .Title {
-  font-size: 24px;
+  /* font-size: 24px; */
   color: white;
-  margin: 32px;
-  font-family: 'minimal';
-  letter-spacing: 4px;
+  padding: 15px;
+  /* font-family: 'minimal'; */
+  letter-spacing: 1px;
 }
 
 .Title_container {
   z-index: 4;
   position: sticky;
-  top: 60px;
+  top: 50px;
   align-self: flex-start;
-  ;
   flex: 1;
   width: 200px;
   max-height: 100px;
-  background-color: #9575CD;
+  background-color: #7241c8;
   margin-bottom: 64px;
 }
 
 @media screen and (max-width: 768px) {
   .Title {
     font-size: 16px;
-    margin: 16px;
+    /* margin: 16px; */
+    text-align: center;
   }
 
   .Title_container {
-    background: linear-gradient(to right, rgb(149, 117, 205), rgba(149, 117, 205, 0.6));
+    background: #7241c8;
     width: 100%;
     top: 50px;
   }

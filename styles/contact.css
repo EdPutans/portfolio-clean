@@ -14,7 +14,7 @@
   border-left: 2px solid #6227b1;
   font-size: 24px;
   padding: 36px;
-  font-family: 'minimal';
+  /* font-family: 'minimal'; */
   transition: all 0.3s;
   letter-spacing: 3px;
 }
