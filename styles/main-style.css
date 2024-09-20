@@ -1,3 +1,7 @@
+:root {
+  /* --text-color: #ccc; */
+}
+
 html,
 body,
 div,
@@ -61,6 +65,7 @@ caption {
   vertical-align: baseline;
   background: transparent;
   box-sizing: border-box;
+  color: var(--text-color);
 }
 
 * {
@@ -108,14 +113,15 @@ body {
   align-items: center;
 }
 
-.light-mode {
+
+
+.dark-mode {
   background: linear-gradient(rgb(33, 31, 33), #141414);
-  color: #ccc;
+  /* --text-color: #222; */
 }
 
-.light-mode p,
-a {
-  color: #ccc;
+body * {
+  /* color: var(--text-color); */
 }
 
 .Title {
@@ -127,12 +133,12 @@ a {
 }
 
 .Title_container {
-  z-index: 4;
+  z-index: 99;
   position: sticky;
-  top: 50px;
+  top: 0px;
   align-self: flex-start;
-  flex: 1;
-  width: 200px;
+  /* flex: 1; */
+  /* width: 200px; */
   max-height: 100px;
   background-color: #7241c8;
   margin-bottom: 64px;

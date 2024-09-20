@@ -107,6 +107,7 @@
 }
 
 .Navbar {
+
   /* scrollbars suck */
   /* width: calc(100vw - 18px); */
   /* animation: 2.5s ease-out 0s 1 slideInFromTopDelayEvenLonger; */
@@ -117,7 +118,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  /* padding: 0 32px; */
+  /* padding-left: 150px; */
   flex: 1;
 }
 
