@@ -138,16 +138,32 @@ body * {
   top: 0px;
   align-self: flex-start;
   /* flex: 1; */
-  /* width: 200px; */
+  width: 150px;
   max-height: 100px;
   background-color: #7241c8;
   margin-bottom: 64px;
 }
 
+.Mobile-only {
+  display: none;
+}
+
+.Desktop-only {
+  display: inherit;
+}
+
 @media screen and (max-width: 768px) {
+  .Mobile-only {
+    display: inherit;
+  }
+
+  .Desktop-only {
+    display: none;
+  }
+
   .Title {
     font-size: 16px;
-    /* margin: 16px; */
+    width: 100%;
     text-align: center;
   }
 

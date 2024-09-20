@@ -1,8 +1,8 @@
 .Contact {
-  align-self: center;
+  align-self: flex-start;
+  padding-left: 64px;
   min-height: 90vh;
   display: flex;
-  width: 100%;
   flex-direction: column;
   max-width: 500px;
   flex-wrap: wrap;
