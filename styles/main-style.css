@@ -1,3 +1,7 @@
+:root {
+  /* --text-color: #ccc; */
+}
+
 html,
 body,
 div,
@@ -61,6 +65,14 @@ caption {
   vertical-align: baseline;
   background: transparent;
   box-sizing: border-box;
+  color: var(--text-color);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid green !important; */
 }
 
 html {
@@ -82,6 +94,10 @@ a {
   src: url(SIMPLIFICA.ttf);
 }
 
+body {
+  background: linear-gradient(#fdfdfd, #ffffff);
+}
+
 .Body {
   width: 100%;
   min-height: 100vh;
@@ -91,42 +107,68 @@ a {
 
 .Body_full {
   flex: 1;
-  background: linear-gradient(#fdfdfd, #ffffff);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+
+
+.dark-mode {
+  background: linear-gradient(rgb(33, 31, 33), #141414);
+  /* --text-color: #222; */
+}
+
+body * {
+  /* color: var(--text-color); */
+}
+
 .Title {
-  font-size: 24px;
+  /* font-size: 24px; */
   color: white;
-  margin: 32px;
-  font-family: 'minimal';
-  letter-spacing: 4px;
+  padding: 15px;
+  /* font-family: 'minimal'; */
+  letter-spacing: 1px;
 }
 
 .Title_container {
-  z-index: 4;
+  z-index: 99;
   position: sticky;
-  top: 60px;
+  top: 0px;
   align-self: flex-start;
-  ;
-  flex: 1;
-  width: 200px;
+  /* flex: 1; */
+  width: 150px;
   max-height: 100px;
-  background-color: #9575CD;
+  background-color: #7241c8;
   margin-bottom: 64px;
 }
 
+.Mobile-only {
+  display: none;
+}
+
+.Desktop-only {
+  display: inherit;
+}
+
 @media screen and (max-width: 768px) {
+  .Mobile-only {
+    display: inherit;
+  }
+
+  .Desktop-only {
+    display: none;
+  }
+
   .Title {
     font-size: 16px;
-    margin: 16px;
+    width: 100%;
+    text-align: center;
   }
 
   .Title_container {
-    background: linear-gradient(to right, rgb(149, 117, 205), rgba(149, 117, 205, 0.6));
+    background: #5f3c9c;
     width: 100%;
     top: 50px;
   }
