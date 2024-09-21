@@ -33,6 +33,7 @@ const toggle = () => {
     document.querySelector('.Made_by_ed_text').style.setProperty('color', '#7241c8');
     document.querySelector('.Navbar').style.setProperty('background-color', 'white');
     Array.from(document.querySelectorAll('.Title')).forEach(el => el.style.setProperty('color', 'white'));
+    Array.from(document.querySelectorAll('.Contact_link')).forEach(el => el.style.setProperty('color', '#555555'))
   } else {
     // DARK MODE
     body.classList.add(DARK_MODE_CLASSNAME);
@@ -43,6 +44,8 @@ const toggle = () => {
     document.querySelector('.Made_by_ed_text').style.setProperty('color', 'white');
     document.querySelector('.Navbar').style.setProperty('background-color', '#7241c8');
     Array.from(document.querySelectorAll('.Title')).forEach(el => el.style.setProperty('color', 'white'));
+    Array.from(document.querySelectorAll('.Contact_link')).forEach(el => el.style.setProperty('color', '#cccccc'))
+
   }
 }
 
