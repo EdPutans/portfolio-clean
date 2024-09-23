@@ -32,6 +32,8 @@ const toggle = () => {
     Array.from(document.querySelectorAll('.Navbar_link')).forEach(el => el.style.setProperty('color', 'unset'))
     document.querySelector('.Made_by_ed_text').style.setProperty('color', '#7241c8');
     document.querySelector('.Navbar').style.setProperty('background-color', 'white');
+    document.querySelector('.Navbar').style.setProperty('border-top', '2px solid #7241c8');
+
     Array.from(document.querySelectorAll('.Title')).forEach(el => el.style.setProperty('color', 'white'));
     Array.from(document.querySelectorAll('.Contact_link')).forEach(el => el.style.setProperty('color', '#555555'))
   } else {
@@ -43,6 +45,7 @@ const toggle = () => {
     Array.from(document.querySelectorAll('.Navbar_link')).forEach(el => el.style.setProperty('color', 'white'))
     document.querySelector('.Made_by_ed_text').style.setProperty('color', 'white');
     document.querySelector('.Navbar').style.setProperty('background-color', '#7241c8');
+    document.querySelector('.Navbar').style.setProperty('border-top', 'none');
     Array.from(document.querySelectorAll('.Title')).forEach(el => el.style.setProperty('color', 'white'));
     Array.from(document.querySelectorAll('.Contact_link')).forEach(el => el.style.setProperty('color', '#cccccc'))
 
